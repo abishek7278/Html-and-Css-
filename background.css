@@ -1,0 +1,5 @@
+body{
+    background-image: url("coding.gif"),url("cat-computer.jpg");
+    background-repeat: no-repeat,repeat;
+    background-clip: border-box;
+}

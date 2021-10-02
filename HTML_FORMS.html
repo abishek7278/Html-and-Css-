@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>Please select a course from this web site</h1>
+    <form action="https://www.google.com/">
+        <h2>COURSES AVAILABLE IN THE SITE ARE</h2>
+
+        <input id="FSWD" type="radio" name="loc" value="FULL STACK">
+        <label for="FSWD">FULL STACK</label>
+
+        <input id="TD" type="radio" name="loc" value="DATA SCIENCE">
+        <label for="TD">DATA SCIENCE</label>
+        
+        <input id="WD" type="radio" name="loc" value="DATA ANALYTICS">
+        <label for="WD">DATA ANALYTICS</label>
+
+        <h2>Provide the rating for the course chosen above</h2>
+
+        <select name="RATING">
+            <option value="Great">5</option>
+            <option value="Good">4</option>
+            <option value="Average">3</option>
+            <option value="Satisfied">2</option>
+            <option value="Poor">1</option>
+        </select>
+
+        <h2>Any suggestions</h2>
+        <textarea name="Your Feedback Please" cols="50" rows="20"></textarea>
+
+        <input type="submit" name="" value="submit">
+    </form>
+
+</body>
+</html>

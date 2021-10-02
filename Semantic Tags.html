@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Semantic tags</title>
+    <style>
+        #header{
+            background-color: lightblue;
+            padding: 25px;
+        }
+        #navbar{
+            background-color: lightcoral;
+            padding: 25px;
+        }
+        #mainsec{
+            background-color: lightgray;
+            padding: 25px;
+        }
+        #sect{
+            background-color: lightgreen;
+            padding: 20px;
+        }
+        .arti{
+            background-color: lightseagreen;
+            padding: 15px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        #foot{
+            background-color: lightslategray;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body style="margin: 0;">
+    <header id="header">
+        <nav id="navbar">
+            <span>Menu 1</span>
+            <span>Menu 2</span>
+            <span>Menu 3</span>
+        </nav>
+    </header>
+
+    <main id="mainsec">
+        <section id="sect">
+            <article class="arti">
+                <header>
+                    <h3>Article title 1</h3>
+                    <a href="/">Author one</a>
+                </header>
+                <p>it is a description of the Author One.</p>
+            </article>
+            <article class="arti">
+                <header>
+                    <h3>Article title 2</h3>
+                    <a href="/">Author two</a>
+                </header>
+                <p>it is a description of the Author One.</p>
+            </article>
+        </section>
+    </main>
+    <details>
+        <summary>Chapter One</summary>
+        <p>This is a hidden text</p>
+    </details>
+    <details>
+        <summary>Chapter Two</summary>
+        <ul>
+            <li>Heading</li>
+            <li>Paragraph</li>
+            <li>Links</li>
+        </ul>
+    </details>
+    <details>
+        <summary>Chapter Three</summary>
+        <a href="https://www.udemy.com/">Udemy Online</a>
+    </details>
+    <details>
+        <summary>Chapter Four</summary>
+        <button><img src="cat-computer.jpg" alt="cats"></button>
+    </details>
+    <footer id="foot">
+        <p>Copyright 2021</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: rgb(11, 14, 14);
+}
+
+li{
+    list-style-position:inside;
+    color: black;
+}
+
+h1{
+    color: brown;
+}
+
+p{
+    color: crimson;
+}
+
+ol > li{
+    color: darkkhaki;
+}
+
+img{
+    /*margin: 0px 0px 50px 0px;*/
+    height: 500px;
+    width: 550px;
+}
